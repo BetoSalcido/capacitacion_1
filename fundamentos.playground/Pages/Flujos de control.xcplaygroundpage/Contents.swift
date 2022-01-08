@@ -1,7 +1,15 @@
-// If
+// Formas de hacer un IF
 
 if 10 > 1 {
     
+}
+
+if "AB" == "ABC" {
+    
+}
+
+if "ABC".isEmpty  || "ABC".count == 0 {
+    print("Vacio")
 }
 
 // if - else
