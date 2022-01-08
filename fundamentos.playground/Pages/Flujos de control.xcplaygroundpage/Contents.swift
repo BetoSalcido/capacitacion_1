@@ -8,6 +8,7 @@ if "AB" == "ABC" {
     
 }
 
+// Verificar si un valor es vacio
 if "ABC".isEmpty  || "ABC".count == 0 {
     print("Vacio")
 }
@@ -43,6 +44,7 @@ enum CovidTest {
     case positivo
     case negativo
 }
+
 let test = CovidTest.positivo
 
 switch test {
@@ -58,6 +60,8 @@ enum CovidTest2: Int {
 }
 
 let test2 = CovidTest2.negativo
+// RawValue te permite acceder al valor del enum
+print(test2.rawValue)
 
 switch test2 {
 case .positvo:

@@ -25,11 +25,10 @@ let status = Status.sent(messageId: "1")
 print(status)
 
 // También podemos definir tipos de enum
-enum HexColor: String {
-    case red = "#344232"
-    case green = "#33232"
+enum ColoresApp: String {
+    case kelder = "#344232"
+    case calzzapato = "#33232"
 }
-
 
 // Otra forma de usar los enum
 enum AlertManager {
@@ -41,3 +40,5 @@ enum AlertManager {
         }
     }
 }
+
+//AlertManager.showSimpleAlertView(on: self, with: "Lo sentimos", message: "Hubo un error", handlerAction: nil)

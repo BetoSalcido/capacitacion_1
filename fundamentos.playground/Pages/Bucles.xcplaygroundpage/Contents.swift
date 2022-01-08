@@ -10,6 +10,7 @@ for (index, item) in data.enumerated() {
     print("\(index) - \(item)")
 }
 
+// Imprimir valores del 0 al 10.
 for item in 0...10 {
     print(item)
 }

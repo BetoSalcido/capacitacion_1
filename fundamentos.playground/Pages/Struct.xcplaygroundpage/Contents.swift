@@ -21,3 +21,18 @@ extension Pruebas {
 }
 
 let example = Pruebas(valor: 0)
+
+// Forma de crear un objeto
+struct Product {
+    let id: String
+    let name: String
+    let color: String
+    let size: String
+    let location: Location
+}
+
+struct Location {
+    let state: String
+    let city: String
+}
+

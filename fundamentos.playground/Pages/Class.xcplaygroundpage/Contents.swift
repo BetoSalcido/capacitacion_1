@@ -12,16 +12,23 @@ class Pruebas {
     init(valor: Int) {
         self.valor = valor
     }
+
 }
 
-// MARK: - Private Methods
+// MARK: - Facebook Methods
 private extension Pruebas {
     
 }
 
-// MARK: - Public Methods
+// MARK: - Gmail Methods
 extension Pruebas {
     
 }
 
 let example = Pruebas(valor: 0)
+
+
+// Forma de heredar una clase
+class PruebasB: Pruebas {
+    
+}
